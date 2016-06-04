@@ -8,7 +8,7 @@ Installation
 0. Download the .repo file:
 ```
 wget -O /etc/yum.repos.d/EA4-Mod-Cloudflare.repo $Link_to_repo_file 
-yum update
+yum install ea-apache24-mod_cloudflare
 ```
 
 Removal
