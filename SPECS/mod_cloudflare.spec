@@ -6,11 +6,9 @@ Name: ea-apache24-mod_cloudflare
 Version: 1.2.0
 Release: 1%{?dist}
 License: ASL-2.0
-
 Group: System Environment/Daemons
-License: ASL-2.0
 URL: https://github.com/cloudflare/mod_cloudflare
-Source0: https://raw.github.com/cloudflare/mod_cloudflare/master/mod_cloudflare.c
+Source0: %{module_name}.c
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires: ea-apache24-devel
 Requires: ea-apache24
@@ -27,7 +25,7 @@ the switch for requests originating from CloudFlare IPs.
 
 %prep
 %setup -c -T
-cp %{SOURCE0} .
+cp -p %{SOURCE0} .
 
 %build
 %{_httpd_apxs} -c mod_cloudflare.c
@@ -51,5 +49,5 @@ rm -rf %{buildroot}
 %config(noreplace) %attr(0644,root,root) %{_sysconfdir}/apache2/conf.modules.d/cloudflare.conf
 
 %changelog
-Sat Jun 4 2016 Jacob Perkins <jacob.perkin@gmail.com>
+* Sat Jun 4 2016 Jacob Perkins <jacob.perkin@gmail.com>
 - Initial commit
