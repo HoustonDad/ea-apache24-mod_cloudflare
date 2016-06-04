@@ -8,7 +8,7 @@
 OBS_PROJECT := Jperkster
 
 # the package name in OBS
-OBS_PACKAGE := mod-cloudflare
+OBS_PACKAGE := ea-apache24-mod_cloudflare
 
 #-------------------------------------------------------------------------------------
 #
