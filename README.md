@@ -12,7 +12,7 @@ yum install ea-apache24-mod_cloudflare
 
 CentOS 7:
 ```
-wget -O /etc/yum.repos.d/EA4-Mod-Cloudflare.repohttp://download.opensuse.org/repositories/home:/Jperkster:/EA4_Mod_Cloudflare/CentOS-7/home:Jperkster:EA4_Mod_Cloudflare.repo
+wget -O /etc/yum.repos.d/EA4-Mod-Cloudflare.repo http://download.opensuse.org/repositories/home:/Jperkster:/EA4_Mod_Cloudflare/CentOS-7/home:Jperkster:EA4_Mod_Cloudflare.repo
 yum install ea-apache24-mod_cloudflare
 ```
 
