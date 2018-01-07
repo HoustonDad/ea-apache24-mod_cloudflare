@@ -1,7 +1,7 @@
 %global ns_name ea-apache24
 %global module_name mod_cloudflare
 
-Summary: CloudFlare Apcahe module mod_cloudflare to show visitor IPs in logs.
+Summary: CloudFlare Apache module mod_cloudflare to show visitor IPs in logs.
 Name: ea-apache24-mod_cloudflare
 Version: 1.2.0
 Release: 1%{?dist}
@@ -51,3 +51,5 @@ rm -rf %{buildroot}
 %changelog
 * Sat Jun 4 2016 Jacob Perkins <jacob.perkin@gmail.com>
 - Initial commit
+* Sun Jan 7 2018 Michael Beasley <m.beasly@cpanel.net>
+- Fix spelling error in Summary
