@@ -51,5 +51,5 @@ rm -rf %{buildroot}
 %changelog
 * Sat Jun 4 2016 Jacob Perkins <jacob.perkin@gmail.com>
 - Initial commit
-* Sun Jan 7 2018 Michael Beasley <m.beasly@cpanel.net>
+* Sun Jan 7 2018 Michael Beasley <m.beasley@cpanel.net>
 - Fix spelling error in Summary
