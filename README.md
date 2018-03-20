@@ -4,6 +4,15 @@ This module builds the mod_cloudflare for cPanel & WHM EasyApache 4.
 
 Installation
 -----------
+
+**!!! WARNING !!!
+!!! WARNING !!!**
+
+**This is not maintained and the repo may go offline at any time.**
+
+**! WARNING !!!
+!!! WARNING !!!**
+
 CentOS 6:
 ```
 wget -O /etc/yum.repos.d/EA4-Mod-Cloudflare.repo http://download.opensuse.org/repositories/home:/Jperkster:/EA4_Mod_Cloudflare/CentOS-6/home:Jperkster:EA4_Mod_Cloudflare.repo
